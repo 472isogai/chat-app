@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(213, 213, 202);
+}
+
+.wrapper {
+    padding: 80px;
+    max-width: 400px;
+    margin-inline: auto;
+}
+
+.title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(40, 9, 238);
+    text-align: center;
+}
+
+.input {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#output {
+    overflow: auto;
+    height: 1200px;
+}
+
+#send {
+    background-color: #222525;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.chat {
+    background-color: #75aeb0;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    max-width: 50%;
+    float: right;
+}
+
+
+.message {
+    text-align: left;
+}
+
+.delete {
+    background-color: #222525;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    float: right;
+}
